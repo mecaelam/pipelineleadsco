@@ -12,7 +12,7 @@
   const badges = [...section.querySelectorAll('.step-number')];
   const paths = [trail, ahead, section.querySelector('.route-road'), section.querySelector('.route-dashes')];
   let middle = 0.5;
-  let layoutKey = ''; 
+  let layoutKey = '';
   const steps = [...section.querySelectorAll('.steps article')];
   const motion = window.matchMedia('(prefers-reduced-motion: reduce)');
   let timeline;
