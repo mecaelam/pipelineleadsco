@@ -21,7 +21,7 @@ document.querySelector('#inquiry-form').addEventListener('submit', event => {
   if (!form.reportValidity()) return;
   const data = new FormData(form);
   const subject = `Google Ads inquiry — ${data.get('business').trim()}`;
-  const body = `Hello Pipeline Leads Co.,\r\n\r\nI’m interested in Google Ads management for my cleaning business.\r\n\r\nBusiness: ${data.get('business').trim()}\r\nName: ${data.get('name').trim()}\r\nEmail: ${data.get('email').trim()}\r\nPhone: ${data.get('phone').trim() || 'Not provided'}\r\nService area: ${data.get('area').trim()}\r\n\r\nPlease tell me about getting started with the $100 first month of management, followed by $249/month, with Google ad spend separate.\r\n\r\nThank you!`;
+  const body = `Hello Pipeline Leads Co.,\r\n\r\nI’m interested in Google Ads management for my cleaning business.\r\n\r\nBusiness: ${data.get('business').trim()}\r\nName: ${data.get('name').trim()}\r\nEmail: ${data.get('email').trim()}\r\nPhone / WhatsApp: ${data.get('phone').trim()}\r\nService area: ${data.get('area').trim()}\r\n\r\nPlease tell me about getting started with the $100 first month of management, followed by $249/month, with Google ad spend separate.\r\n\r\nThank you!`;
   const mailto = `mailto:mecaelamorante2@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   const status = document.querySelector('#form-status');
   status.hidden = false;

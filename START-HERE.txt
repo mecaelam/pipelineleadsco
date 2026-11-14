@@ -34,3 +34,8 @@ GSAP license: https://gsap.com/standard-license/
 
 NAVIGATION
 Lenis is bundled in assets/vendor for smooth section navigation. The active indicator follows the visible section. Reduced motion uses instant navigation.
+
+CONTACT DETAILS
+WhatsApp: 0963 857 0672 (international link: +63 963 857 0672).
+Email: mecaelamorante2@gmail.com. Phone/WhatsApp is a required inquiry field.
+Google Forms integration is pending creation of the Google Form and receipt of its public link. The current form still opens an email draft.
