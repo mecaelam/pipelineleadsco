@@ -126,6 +126,21 @@ h3{font-size:18px;line-height:1.4;letter-spacing:-.35px}
 .steps p{font-size:14px;line-height:1.8;max-width:330px}
 
 /* Pricing */
+.process-route{position:relative;margin:-14px 0 18px;min-height:100px}
+.route-map{display:block;width:100%;height:auto;max-height:215px;overflow:visible}
+.route-road{stroke:#c8d9e7;stroke-width:14;stroke-linecap:round;opacity:.55}
+.route-dashes{stroke:#6c95b9;stroke-width:3;stroke-dasharray:5 7;stroke-linecap:round}
+#route-trail{stroke:#0869d6;stroke-width:3;stroke-linecap:round}
+.route-stop circle{fill:#edf6fc;stroke:#8eaac3;stroke-width:2;transition:fill .25s,stroke .25s}
+.route-stop text{fill:#60758d;font-family:var(--body);font-size:11px;font-weight:600}
+.route-stop.is-reached text{fill:#0869d6}
+.route-stop.is-reached circle{fill:#0869d6;stroke:#fff}
+.steps article.is-reached .step-number{color:#0869d6;font-weight:700}
+.route-replay{position:absolute;right:0;bottom:0;display:flex;align-items:center;gap:8px;background:transparent;border:0;color:#345575;font-size:12px;padding:8px 0 8px 12px}
+.route-replay:hover{color:#0869d6}
+@media(max-width:680px){.process-route{margin:-8px 0 30px;padding-bottom:26px}.route-map{min-height:100px}.route-replay{font-size:11px}.process-section .steps{gap:24px}}
+
+/* Pricing */
 .pricing-section{background:#0b2038;color:#f2f5fa}
 .pricing-heading{display:grid;grid-template-columns:1fr 2.1fr;gap:0 70px;align-items:baseline;border-bottom:1px solid #30445c;padding-bottom:38px}
 .pricing-heading .section-label{color:#a6b8ce;margin:0;grid-row:1 / 3}

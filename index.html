@@ -11,6 +11,10 @@
   <script src="script.js" defer></script>
   <script src="hero-search.js" defer></script>
   <script src="pricing.js" defer></script>
+  <script src="assets/vendor/gsap.min.js" defer></script>
+  <script src="assets/vendor/DrawSVGPlugin.min.js" defer></script>
+  <script src="assets/vendor/MotionPathPlugin.min.js" defer></script>
+  <script src="process-route.js" defer></script>
 </head>
 <body>
   <header class="site-header">
@@ -81,6 +85,25 @@
     <section class="process-section" id="how-it-works">
       <div class="sky-ribbons" aria-hidden="true"><i></i><i></i><i></i></div>
       <div class="container"><div class="process-heading"><p class="section-label">How it works</p><h2>Three steps to get started.</h2></div>
+        <div class="process-route" aria-label="Campaign journey: your business, campaign setup, then weekly management.">
+          <svg class="route-map" viewBox="0 0 600 150" fill="none" aria-hidden="true">
+            <defs><mask id="route-ahead-mask" maskUnits="userSpaceOnUse" x="0" y="0" width="600" height="150"><path id="route-reveal" d="M100 75 C145 75 155 30 200 30 S255 75 300 75 S355 120 400 120 S455 75 500 75" stroke="white" stroke-width="8"/></mask></defs>
+            <path class="route-road" d="M100 75 C145 75 155 30 200 30 S255 75 300 75 S355 120 400 120 S455 75 500 75"/>
+            <path class="route-dashes" d="M100 75 C145 75 155 30 200 30 S255 75 300 75 S355 120 400 120 S455 75 500 75" mask="url(#route-ahead-mask)"/>
+            <path id="route-trail" d="M100 75 C145 75 155 30 200 30 S255 75 300 75 S355 120 400 120 S455 75 500 75"/>
+            <g class="route-stop" data-stop="0"><circle cx="100" cy="75" r="8"/><text x="100" y="50" text-anchor="middle">01</text></g>
+            <g class="route-stop" data-stop="1"><circle cx="300" cy="75" r="8"/><text x="300" y="50" text-anchor="middle">02</text></g>
+            <g class="route-stop" data-stop="2"><circle cx="500" cy="75" r="8"/><text x="500" y="50" text-anchor="middle">03</text></g>
+            <g id="route-car" visibility="hidden">
+              <rect x="-13" y="-11" width="7" height="4" rx="2" fill="#0b2038"/><rect x="7" y="-11" width="7" height="4" rx="2" fill="#0b2038"/>
+              <rect x="-13" y="7" width="7" height="4" rx="2" fill="#0b2038"/><rect x="7" y="7" width="7" height="4" rx="2" fill="#0b2038"/>
+              <rect x="-19" y="-9" width="38" height="18" rx="6" fill="#0869d6" stroke="white" stroke-width="2"/>
+              <path d="M6-6 10-5 10 5 6 6Z" fill="#c7e5ff"/><path d="M-9-5-5-6-5 6-9 5Z" fill="#c7e5ff"/>
+              <path d="M17-5v2m0 6v2" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+            </g>
+          </svg>
+          <button class="route-replay" type="button" hidden>Replay route <span aria-hidden="true">?</span></button>
+        </div>
         <div class="steps">
           <article><span class="step-number">01</span><h3>Tell us about your business.</h3><p>Share your services, service area, and goals.</p></article>
           <article><span class="step-number">02</span><h3>We set up the campaigns.</h3><p>We research keywords, write the ads, and build your Google Search campaigns.</p></article>
