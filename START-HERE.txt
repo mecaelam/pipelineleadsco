@@ -4,7 +4,7 @@ PREVIEW
 Double-click index.html to open the website in your browser.
 
 UPLOAD TO YOUR OWN HOST
-Upload index.html, styles.css, script.js, hero-search.js, pricing.js, process-route.js, and the assets folder together to your host's public web folder (often public_html, www, or htdocs).
+Upload index.html, styles.css, script.js, hero-search.js, pricing.js, process-route.js, navigation.js, and the assets folder together to your host's public web folder (often public_html, www, or htdocs).
 Keep index.html at the public folder's root. No build command, package installation, ChatGPT account, or ChatGPT hosting is needed.
 
 YOUR DOMAIN
@@ -31,3 +31,6 @@ Four cleaning-related example queries type into the hero search field. After eac
 PROCESS ROUTE
 The three-step route uses locally bundled GSAP 3.13.0, DrawSVGPlugin, and MotionPathPlugin in assets/vendor. It plays once when visible, can be replayed, and stays static with reduced motion.
 GSAP license: https://gsap.com/standard-license/
+
+NAVIGATION
+Lenis is bundled in assets/vendor for smooth section navigation. The active indicator follows the visible section. Reduced motion uses instant navigation.
