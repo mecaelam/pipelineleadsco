@@ -202,6 +202,17 @@ footer .brand-mark{background:#dce7f4;border-radius:3px}
 @media(max-width:370px){.query-tools svg:last-child{display:none}.query-content{font-size:13px}.query-pill{padding-inline:14px;gap:10px}.hero h1{font-size:52px}.nav-cta{gap:11px;padding:10px 11px;font-size:10px}.brand{font-size:12px}.brand-sub{font-size:7px;letter-spacing:2.9px}.nav-wrap{gap:9px}.search-result-row h3{font-size:16px}.search-result-row p{font-size:11px}.demo-footer figcaption{max-width:205px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.typing-caret{display:none!important}.demo-running .search-result-row{opacity:1;transform:none}}
 
+/* Pale sky with three independently moving ribbons */
+.services-section,.process-section,.faq-section,.contact-section{position:relative;isolation:isolate;background:#edf6fc}
+.sky-ribbons{position:absolute;inset:0;overflow:hidden;pointer-events:none;z-index:-1}
+.sky-ribbons i{position:absolute;display:block;width:95%;height:42%;min-height:130px;left:-20%;top:10%;border-radius:48% 70% 35% 65% / 60% 40% 65% 45%;background:linear-gradient(100deg,transparent,rgba(132,198,241,.24) 30%,rgba(174,214,250,.38) 65%,transparent);filter:blur(34px);transform-origin:50% 50%;animation:sky-fold-one 9s ease-in-out infinite}
+.sky-ribbons i:nth-child(2){left:25%;top:38%;height:35%;background:linear-gradient(100deg,transparent,rgba(176,188,242,.24),rgba(144,208,241,.3),transparent);animation:sky-fold-two 10.5s ease-in-out -3.5s infinite}
+.sky-ribbons i:nth-child(3){left:-5%;top:65%;height:30%;background:linear-gradient(100deg,transparent,rgba(156,226,232,.3),rgba(192,223,251,.38),transparent);animation:sky-fold-three 12s ease-in-out -7s infinite}
+@keyframes sky-fold-one{0%,100%{transform:translate(-6%,-10%) rotate(-12deg) skewX(-15deg) scaleY(.7)}50%{transform:translate(22%,30%) rotate(10deg) skewX(20deg) scaleY(1.25)}}
+@keyframes sky-fold-two{0%,100%{transform:translate(12%,18%) rotate(13deg) skewX(18deg) scaleY(1.1)}50%{transform:translate(-25%,-22%) rotate(-15deg) skewX(-24deg) scaleY(.65)}}
+@keyframes sky-fold-three{0%,100%{transform:translate(-10%,15%) rotate(-8deg) skewX(-20deg) scaleY(.8)}50%{transform:translate(25%,-65%) rotate(16deg) skewX(24deg) scaleY(1.3)}}
+@media(prefers-reduced-motion:reduce){.sky-ribbons i{animation:none}}
+
 /* A single contained offer */
 .pricing-heading{display:block;text-align:center;border:0;padding-bottom:36px}
 .pricing-heading .section-label{margin-bottom:14px}
