@@ -203,7 +203,7 @@ footer .brand-mark{background:#dce7f4;border-radius:3px}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.typing-caret{display:none!important}.demo-running .search-result-row{opacity:1;transform:none}}
 
 /* Pale sky with three independently moving ribbons */
-.services-section,.process-section,.faq-section,.contact-section{position:relative;isolation:isolate;background:#edf6fc}
+.services-section,.process-section,.faq-section{position:relative;isolation:isolate;background:#edf6fc}
 .sky-ribbons{position:absolute;inset:0;overflow:hidden;pointer-events:none;z-index:-1}
 .sky-ribbons i{position:absolute;display:block;width:95%;height:42%;min-height:130px;left:-20%;top:10%;border-radius:48% 70% 35% 65% / 60% 40% 65% 45%;background:linear-gradient(100deg,transparent,rgba(132,198,241,.24) 30%,rgba(174,214,250,.38) 65%,transparent);filter:blur(34px);transform-origin:50% 50%;animation:sky-fold-one 9s ease-in-out infinite}
 .sky-ribbons i:nth-child(2){left:25%;top:38%;height:35%;background:linear-gradient(100deg,transparent,rgba(176,188,242,.24),rgba(144,208,241,.3),transparent);animation:sky-fold-two 10.5s ease-in-out -3.5s infinite}
@@ -233,3 +233,20 @@ footer .brand-mark{background:#dce7f4;border-radius:3px}
 .plan-card .tracking-note{color:#586575;font-size:12px;line-height:1.75;max-width:none}
 @media(max-width:850px){.plan-card{padding:28px;gap:28px;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr)}.plan-card .price-block{padding-right:24px}.plan-card .price{font-size:80px}}
 @media(max-width:680px){.pricing-heading{padding-bottom:28px}.plan-card{padding:26px 22px;grid-template-columns:minmax(0,1fr);gap:28px;border-radius:12px}.plan-card .price-block{padding:0 0 28px;border-right:0;border-bottom:1px solid #d8dfe7}.plan-card .price{font-size:84px}.plan-card .renewal{max-width:none}.plan-card .price-block .button{margin-top:22px}.plan-card .plan-features{gap:14px}}
+
+/* Navy contact and white footer */
+.contact-section{background:#0b2038;color:#f2f5fa;border-top-color:#30445c;color-scheme:dark}
+.contact-section .section-label,.contact-section .section-lead>p:not(.section-label){color:#b3c3d7}
+.contact-section .email-link{color:#9ec5ff;border-color:#527297}
+.contact-form label{color:#dce6f3}
+.contact-form label span,.contact-section .form-note{color:#a9bdd5}
+.contact-form input{color:#f2f5fa;border-bottom-color:#68809c;caret-color:#9ec5ff}
+.contact-form input:focus{border-bottom-color:#9ec5ff}
+.contact-form input:-webkit-autofill{-webkit-text-fill-color:#f2f5fa;box-shadow:0 0 0 1000px #0b2038 inset}
+.contact-section #form-status{color:#172535;color-scheme:light}
+footer{background:#fff;color:#0b2038}
+footer .brand-mark{background:transparent}
+.footer-main>p{color:#586575}
+.back-top{color:#345575}
+.back-top:hover{color:#0869d6}
+.footer-bottom{border-top-color:#d8dfe7;color:#586575}
