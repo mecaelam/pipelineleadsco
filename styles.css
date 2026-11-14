@@ -158,8 +158,9 @@ h3{font-size:18px;line-height:1.4;letter-spacing:-.35px}
 /* FAQs */
 .faq-section{background:#f7f8fa}
 .faq-grid{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.2fr);gap:120px}
-.faqs{border-top:1px solid var(--line)}
-.faqs details{border-bottom:1px solid var(--line)}
+.faqs{display:grid;gap:12px;align-content:start}
+.faqs details{background:#fafdff;border:1px solid #d5e3ef;border-radius:12px;padding:0 22px;transition:border-color .2s ease,background .2s ease}
+.faqs details[open]{background:#fff;border-color:#a8c8ed}
 .faqs summary{display:flex;justify-content:space-between;align-items:center;gap:25px;cursor:pointer;list-style:none;padding:25px 0;font-size:16px;line-height:1.6}
 .faqs summary::-webkit-details-marker{display:none}
 .faqs summary>span{width:32px;height:32px;position:relative;flex-shrink:0;border:1px solid #bdcfdf;border-radius:50%;background:rgba(255,255,255,.6);color:#345575;transition:background .25s ease,border-color .25s ease,color .25s ease}
@@ -170,6 +171,7 @@ h3{font-size:18px;line-height:1.4;letter-spacing:-.35px}
 .faqs details[open] summary>span:after{transform:translate(-50%,-50%) rotate(0deg);opacity:0}
 .faqs details[open] summary{padding-bottom:12px;color:#0869d6}
 .faqs details>p{font-size:14px;line-height:1.85;max-width:510px;margin-bottom:25px;margin-right:30px}
+@media(max-width:680px){.faqs details{padding-inline:18px}}
 
 /* Contact */
 .contact-section{background:#e8edf3;border-top:1px solid #dde4ed}
