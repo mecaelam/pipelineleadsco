@@ -10,8 +10,8 @@ Keep index.html at the public folder's root. No build command, package installat
 YOUR DOMAIN
 Use the DNS records supplied by your chosen hosting provider to connect your domain. Enable HTTPS through your host. Exact DNS records depend on the host you choose.
 
-CONTACT FORM
-The form opens the visitor's email app with the inquiry filled in and addressed to mecaelamorante2@gmail.com. Visitors must review and send the email themselves. No inquiry is sent or stored by the website. A direct email link is also included.
+CONTACT
+Visitors contact you directly through WhatsApp or email. There is no inquiry form or Google Forms integration.
 
 PRICING
 $100 for the first month of Google Search Ads management.
@@ -21,7 +21,7 @@ No commitment. Cancel anytime.
 
 ASSETS
 Your original logo.png is used in assets/logo.png.
-Archivo and DM Sans load from Google Fonts; fallback fonts work offline.
+Archivo, Inter, and DM Sans load from Google Fonts; fallback fonts work offline.
 The Google wordmark in the illustrative search demo is saved locally in assets/google-wordmark-color.png.
 The sample Google search ad is illustrative. Leads and bookings are not guaranteed.
 
@@ -37,5 +37,4 @@ Lenis is bundled in assets/vendor for smooth section navigation. The active indi
 
 CONTACT DETAILS
 WhatsApp: 0963 857 0672 (international link: +63 963 857 0672).
-Email: mecaelamorante2@gmail.com. Phone/WhatsApp is a required inquiry field.
-Google Forms integration is pending creation of the Google Form and receipt of its public link. The current form still opens an email draft.
+Email: mecaelamorante2@gmail.com.
