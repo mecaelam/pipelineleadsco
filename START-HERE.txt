@@ -1,0 +1,29 @@
+PIPELINE LEADS CO. — STANDALONE WEBSITE
+
+PREVIEW
+Double-click index.html to open the website in your browser.
+
+UPLOAD TO YOUR OWN HOST
+Upload index.html, styles.css, script.js, hero-search.js, pricing.js, and the assets folder together to your host's public web folder (often public_html, www, or htdocs).
+Keep index.html at the public folder's root. No build command, package installation, ChatGPT account, or ChatGPT hosting is needed.
+
+YOUR DOMAIN
+Use the DNS records supplied by your chosen hosting provider to connect your domain. Enable HTTPS through your host. Exact DNS records depend on the host you choose.
+
+CONTACT FORM
+The form opens the visitor's email app with the inquiry filled in and addressed to mecaelamorante2@gmail.com. Visitors must review and send the email themselves. No inquiry is sent or stored by the website. A direct email link is also included.
+
+PRICING
+$100 for the first month of Google Search Ads management.
+$249/month from month two.
+Google advertising budget is separate, paid directly to Google.
+No commitment. Cancel anytime.
+
+ASSETS
+Your original logo.png is used in assets/logo.png.
+Archivo and DM Sans load from Google Fonts; fallback fonts work offline.
+The Google wordmark in the illustrative search demo is saved locally in assets/google-wordmark-color.png.
+The sample Google search ad is illustrative. Leads and bookings are not guaranteed.
+
+SEARCH ANIMATION
+Four cleaning-related example queries type into the hero search field. After each query, three illustrative result rows appear 110ms apart. Use Pause/Play to control the loop. The animation stops while offscreen or in a hidden tab, and becomes static when reduced motion is enabled.
