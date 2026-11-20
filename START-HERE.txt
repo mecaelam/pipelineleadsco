@@ -11,7 +11,7 @@ YOUR DOMAIN
 Use the DNS records supplied by your chosen hosting provider to connect your domain. Enable HTTPS through your host. Exact DNS records depend on the host you choose.
 
 CONTACT
-Visitors contact you directly through WhatsApp or email. There is no inquiry form or Google Forms integration.
+The primary contact button opens your Google Form in a new tab. WhatsApp and email remain available. Responses and email notifications are managed in Google Forms; this website does not configure those settings.
 
 PRICING
 $100 for the first month of Google Search Ads management.

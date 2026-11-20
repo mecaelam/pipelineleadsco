@@ -323,3 +323,8 @@ html.lenis{scroll-behavior:auto!important}
 .search-intent-copy p:last-child{margin-bottom:0;padding-top:8px}
 .search-intent-copy .intent-emphasis{color:#0b2038;font-weight:600}
 @media(max-width:680px){.search-intent-grid{gap:28px}.search-intent-heading h2{font-size:32px}.search-intent-copy p{font-size:18px;line-height:1.7;margin-bottom:20px}}
+
+.contact-form-link{width:100%;justify-content:center;gap:18px;padding:17px 18px;border-radius:10px}
+.contact-offer-note{font-size:12px;line-height:1.7;color:#b8c9dc;margin:14px 0 26px}
+.contact-actions .contact-whatsapp{background:transparent;border-color:#527ba5;color:#e2edfb}
+.contact-actions .contact-whatsapp:hover{background:#1a3b5b;border-color:#8ab4f8}
