@@ -11,7 +11,7 @@ YOUR DOMAIN
 Use the DNS records supplied by your chosen hosting provider to connect your domain. Enable HTTPS through your host. Exact DNS records depend on the host you choose.
 
 CONTACT
-The primary contact button opens your Google Form in a new tab. WhatsApp and email remain available. Responses and email notifications are managed in Google Forms; this website does not configure those settings.
+All Get Started for $100 buttons open your Google Form in a new tab. Email and WhatsApp links are not displayed on the website. Responses and email notifications are managed in Google Forms; this website does not configure those settings.
 
 PRICING
 $100 for the first month of Google Search Ads management.
@@ -30,7 +30,3 @@ Four local-business example queries (plumbing, floristry, auto repair, and baker
 
 NAVIGATION
 Lenis is bundled in assets/vendor for smooth section navigation. The active indicator follows the visible section. Reduced motion uses instant navigation.
-
-CONTACT DETAILS
-WhatsApp: 0963 857 0672 (international link: +63 963 857 0672).
-Email: pipelineleadsco@gmail.com.
