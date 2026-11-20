@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&family=Inter:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&family=Inter:wght@900&family=Inter+Tight:wght@900&display=swap');
 :root{--navy:#0b2038;--ink:#172535;--muted:#586575;--blue:#0869d6;--paper:#f7f8fa;--line:#d8dfe7;--body:'DM Sans',Arial,sans-serif;--heading:'Archivo',Arial,sans-serif}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;scroll-padding-top:100px}
@@ -47,10 +47,9 @@ h3{font-size:18px;line-height:1.4;letter-spacing:-.35px}
 .hero-copy{min-width:0;padding-bottom:13px}
 .hero h1{font-size:clamp(58px,5.8vw,83px);line-height:1.04;letter-spacing:-3.8px;font-weight:500}
 .hero h1>span{color:#8ab4f8}
-.hero h1.hero-title{font-family:'Inter','Arial Black',Arial,sans-serif;font-size:clamp(48px,4.9vw,70px);line-height:1.02;letter-spacing:-.065em;font-weight:900;text-wrap:balance}
+.hero h1.hero-title{font-family:"Inter Tight",sans-serif;font-weight:900;font-size:clamp(42px,5vw,72px);line-height:1.02;letter-spacing:-0.045em;text-wrap:balance}
 .hero h1>.headline-highlight{color:#f1f3f4;background-image:linear-gradient(rgba(87,158,255,.38),rgba(87,158,255,.38));background-repeat:no-repeat;background-position:left 88%;background-size:100% .55em;-webkit-box-decoration-break:clone;box-decoration-break:clone;animation:headline-marker 1.05s cubic-bezier(.22,.61,.36,1) .35s both}
 @keyframes headline-marker{from{background-size:0% .55em}to{background-size:100% .55em}}
-@media(max-width:680px){.hero h1.hero-title{font-size:clamp(42px,11.8vw,58px);letter-spacing:-.055em}}
 .hero-description{max-width:380px;color:#bdc1c6;font-size:17px;line-height:1.75;margin-top:28px}
 .hero-cta{margin-top:29px;min-width:232px}
 .price-note{margin-top:16px;font-size:12px;color:#aeb4bd;line-height:1.8}
