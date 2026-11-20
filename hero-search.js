@@ -8,27 +8,75 @@
   const pauseIcon = pauseButton.querySelector('[aria-hidden]');
   const motion = window.matchMedia('(prefers-reduced-motion: reduce)');
   const examples = [
-    { query: 'house cleaning near me', results: [
-      ['House Cleaning in Your Area | Request a Quote', 'Regular and one-off cleaning for your home. Contact our local team for a quote.'],
-      ['House cleaning services near you', 'Explore local cleaners and the services they offer.'],
-      ['Compare cleaning services in your area', 'Find a service for your home and request an estimate.']
-    ] },
-    { query: 'deep cleaning services', results: [
-      ['Local Deep Cleaning Services | Get a Quote', 'Detailed cleaning for kitchens, bathrooms, and the rest of your home.'],
-      ['Deep cleaning services near you', 'Find local cleaning teams and ask about availability.'],
-      ['Deep cleaning for homes and apartments', 'Compare services for a thorough home clean.']
-    ] },
-    { query: 'move-out cleaning near me', results: [
-      ['Move-Out Cleaning | Request a Quote', 'Moving home? Ask our local team about move-out cleaning.'],
-      ['Local move-out cleaning services', 'Find cleaning options for the end of your tenancy.'],
-      ['End-of-tenancy cleaning near you', 'Explore local cleaners and request a quote.']
-    ] },
-    { query: 'office cleaning services', results: [
-      ['Office Cleaning Services | Get in Touch', 'Regular cleaning for offices and workplaces. Ask about a schedule for your business.'],
-      ['Office cleaning teams nearby', 'Explore local cleaning services for your workplace.'],
-      ['Commercial cleaning services in your area', 'Find cleaning options for your workplace.']
-    ] }
-  ];
+  {
+    "query": "plumber near me",
+    "results": [
+      [
+        "Local Plumbing Services | Request a Quote",
+        "Plumbing repairs and installations in your area. Contact our team for a quote."
+      ],
+      [
+        "Plumbing services near you",
+        "Explore local plumbers and the services they offer."
+      ],
+      [
+        "Find a plumber in your area",
+        "Compare local plumbing services and request an estimate."
+      ]
+    ]
+  },
+  {
+    "query": "flower shop near me",
+    "results": [
+      [
+        "Fresh Flowers Nearby | Order a Bouquet",
+        "Flowers for birthdays, celebrations, and everyday moments. Ask about local delivery."
+      ],
+      [
+        "Flower shops in your area",
+        "Explore nearby florists and their bouquets."
+      ],
+      [
+        "Find your local florist",
+        "Browse flowers and check collection or delivery options."
+      ]
+    ]
+  },
+  {
+    "query": "auto repair near me",
+    "results": [
+      [
+        "Local Auto Repair | Book a Service",
+        "Vehicle servicing and repairs from a local team. Contact us to book."
+      ],
+      [
+        "Auto repair shops nearby",
+        "Compare local workshops and the services they offer."
+      ],
+      [
+        "Car servicing in your area",
+        "Find a nearby repair shop and check availability."
+      ]
+    ]
+  },
+  {
+    "query": "bakery near me",
+    "results": [
+      [
+        "Your Local Bakery | Freshly Baked Daily",
+        "Bread, pastries, and cakes from your neighborhood bakery. Explore our selection."
+      ],
+      [
+        "Bakeries in your area",
+        "Discover local bakeries and their opening hours."
+      ],
+      [
+        "Fresh bread and cakes nearby",
+        "Browse nearby bakeries and ask about orders."
+      ]
+    ]
+  }
+];
   let exampleIndex = 0;
   let character = 0;
   let timer = null;

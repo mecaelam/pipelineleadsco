@@ -26,7 +26,7 @@ The Google wordmark in the illustrative search demo is saved locally in assets/g
 The sample Google search ad is illustrative. Leads and bookings are not guaranteed.
 
 SEARCH ANIMATION
-Four cleaning-related example queries type into the hero search field. After each query, three illustrative result rows appear 110ms apart. Use Pause/Play to control the loop. The animation stops while offscreen or in a hidden tab, and becomes static when reduced motion is enabled.
+Four local-business example queries (plumbing, floristry, auto repair, and bakeries) type into the hero search field. After each query, three illustrative result rows appear 110ms apart. Use Pause/Play to control the loop. The animation stops while offscreen or in a hidden tab, and becomes static when reduced motion is enabled.
 
 PROCESS ROUTE
 The three-step route uses locally bundled GSAP 3.13.0, DrawSVGPlugin, and MotionPathPlugin in assets/vendor. It plays once when visible, can be replayed, and stays static with reduced motion.
